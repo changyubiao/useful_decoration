@@ -25,7 +25,7 @@ setup(
     include_package_data=True,
     package_dir={"": "src"},
     long_description=long_description,
-    url='https://github.com/changyubiao',  #todo
+    url='https://github.com/changyubiao/useful_decoration',
     author='frank',
     author_email='frank.chang@lexisnexis.com',
     description='测试发布包功能',
@@ -33,5 +33,3 @@ setup(
 
 )
 
-if __name__ == '__main__':
-    pass
