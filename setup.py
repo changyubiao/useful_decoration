@@ -9,7 +9,7 @@ from setuptools import setup,find_packages
 import io
 import re
 
-with open('README.md', 'r', encoding='UTF-8') as f:
+with open('README.rst', 'r', encoding='UTF-8') as f:
     long_description = f.read()
 
 with io.open("src/useful_decoration/__init__.py", "rt", encoding="utf8") as f:
