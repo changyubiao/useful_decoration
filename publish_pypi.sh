@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-
-# enter virtual environment
+# activate your virtual environment
 
 # 检查打包文件
-echo "begin  python setup.py check  "
+echo " begin  python setup.py check  "
 python setup.py  check
 
 
