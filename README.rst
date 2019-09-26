@@ -4,8 +4,7 @@ useful-decoration
 Description
 -----------
 
-    I wrote some decorators that are commonly used in my work. And give
-    an example if the decorator is used.
+I wrote some decorators that are commonly used in my daily work. And I gave an example if the decorator is often used.
 
 Installing
 -----------
@@ -40,6 +39,14 @@ _______
         p = Person(name='frank')
 
         print(p.calculate())  # {'factor': 10}
+
+
+Contributes
+___________
+
+Welcome, you can join this repo to  enhance this repo  together. you can pull request to me .
+please don't  hesitate to contact with  me if you have  any questions .
+
 
 Links
 _____
