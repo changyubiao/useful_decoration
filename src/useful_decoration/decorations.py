@@ -17,9 +17,9 @@ def element_mapping(factor_name):
     如果返回 类型 是一个字典类型 , 则直接返回, 不做任何处理.
     :param factor_name: str  因子名称
     :return:
-    ---
+    --------
     examples:
-    >>>>
+    ---------
     class SameIDCard:
         @classmethod
         @element_mapping(factor_name="same_fingerprint_id_card")
