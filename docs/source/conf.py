@@ -15,18 +15,28 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 import os
+from os.path import abspath, dirname, join
 import sys
-root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, root_path)
 
-# for path  in  sys.path:
-#     print(f"path: {path} ")
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+print(f"root_path:{root_path}")
+# sys.path.insert(0, root_path)
+
+# Make sure we get the version of this copy of useful-decoration
+print("Make sure we get the version of this copy of useful-decoration ")
+
+namespace_package = dirname(dirname(dirname(abspath(__file__))))
+package_dir = namespace_package + '/src'
+print(f'package_dir: {package_dir}')
+
+sys.path.insert(0, package_dir)
 
 import useful_decoration
 
+print("import useful_decoration successfully !")
 
-
-
+# ----end path setup -----------------------------------------
 
 
 # -- Project information -----------------------------------------------------
@@ -42,9 +52,6 @@ version = useful_decoration.__version__
 # The full version, including alpha/beta/rc tags.
 release = version
 
-
-
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -57,7 +64,6 @@ release = version
 # The master toctree document.
 master_doc = 'index'
 
-
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
@@ -66,8 +72,6 @@ extensions = [
     "sphinx_issues",
 ]
 
-
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -75,7 +79,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
-
 
 # -- Options for HTML output -------------------------------------------------
 
