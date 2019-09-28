@@ -51,8 +51,9 @@ please don't  hesitate to contact with  me if you have  any questions .
 Links
 _____
 
-pypi address https://pypi.org/project/useful-decoration/
+* pypi address https://pypi.org/project/useful-decoration/
 
+* Documentation: https://useful-decoration.readthedocs.io/en/latest/
 
 
 .. _pip: https://pip.pypa.io/en/stable/quickstart/

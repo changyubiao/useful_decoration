@@ -29,17 +29,16 @@ setup(
     author='frank',
     author_email='frank.chang@lexisnexis.com',
     description='powerful and useful decorations',
+
+    project_urls={
+        "Documentation": "https://useful-decoration.readthedocs.io/en/latest/",
+        "Code": "https://github.com/changyubiao/useful_decoration",
+    },
+
     python_requires='>=3.6',
     install_requires=[
-
-
         "loguru>=0.3.2",
 
-
-        # "Werkzeug>=0.15",
-        # "Jinja2>=2.10.1",
-        # "itsdangerous>=0.24",
-        # "click>=5.1",
     ],
 
 )
