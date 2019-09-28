@@ -14,6 +14,12 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import useful_decoration
+
+
+
+
+
 
 # -- Project information -----------------------------------------------------
 
@@ -22,7 +28,13 @@ copyright = '2019, frank.chang'
 author = 'frank.chang'
 
 # The full version, including alpha/beta/rc tags
-release = 'y'
+# release = 'y'
+# The short X.Y version.
+version = useful_decoration.__version__
+# The full version, including alpha/beta/rc tags.
+release = version
+
+
 
 
 # -- General configuration ---------------------------------------------------
@@ -30,8 +42,23 @@ release = 'y'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+# extensions = [
+# ]
+
+
+# The master toctree document.
+master_doc = 'index'
+
+
 extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.intersphinx",
+    "sphinxcontrib.log_cabinet",
+    "pallets_sphinx_themes",
+    "sphinx_issues",
 ]
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
