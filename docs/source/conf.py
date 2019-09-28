@@ -14,6 +14,14 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import os
+import sys
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, root_path)
+
+# for path  in  sys.path:
+#     print(f"path: {path} ")
+
 import useful_decoration
 
 
