@@ -4,10 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-twine = "*"
+twine = "0.3.2"
+sphinxcontrib-log-cabinet = "1.0.1"
 
 [dev-packages]
-loguru = "*"
+loguru = "0.3.2"
 
 [requires]
 python_version = "3.6"
