@@ -1,17 +1,8 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@User    : frank 
-@Time    : 2019/9/26 20:46
-@File    : func.py
-@Email  : frank.chang@xinyongfei.cn
-
-
 这里检查对象 属性 是否满足 某些条件,进行 特定返回值 .
-
 检查 对象中 data 属性 ,是否 满足 某些条件
 如果 data 满足 某些条件,可以进行计算 ; 否则不算,直接返回默认值 .
-
 
 """
 
@@ -26,10 +17,8 @@ DEFAULT_PROB = -222.0
 
 
 def _check_arguments(d):
-    """
-
-    如果 d 全为空值,None ,则返回False . d.values有一个不为空,None,0 则 返回True .
-
+    """\
+    如果 d 全为空值,None ,则返回False . d.values有一个不为空,None,0 则 返回True
     """
     copy = d.copy()
     return any(copy.values())

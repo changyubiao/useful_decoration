@@ -1,16 +1,4 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-@User    : frank 
-@Time    : 2019/9/26 20:46
-@File    : func.py
-@Email  : frank.chang@xinyongfei.cn
-
-这里检查对象 属性 是否满足 某些条件,进行 特定返回值 .
-https://docs.python.org/3/library/inspect.html#inspect.Signature.bind
-https://docs.python.org/3/library/inspect.html#inspect.BoundArguments
-
-"""
 
 import functools
 import inspect
@@ -24,7 +12,7 @@ default_value = {
 
 def checked_arguments(*, callback, default):
     """
-    :param callback: function  ,
+    :param callback: function
             这个 callable 只接受 一个参数 Orderdict
             this  function 返回  True,or False  如果为 True 则进行 下面的逻辑 fn的逻辑,
             否则不进行 fn 的逻辑,直接返回  规定的默认值default

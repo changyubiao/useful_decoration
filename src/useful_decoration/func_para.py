@@ -1,16 +1,8 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@User    : frank 
-@Time    : 2019/9/26 20:46
-@File    : func.py
-@Email  : frank.chang@xinyongfei.cn
-
 
 这里检查对象 属性 是否满足 某些条件,进行 特定返回值 .
 
-https://docs.python.org/3/library/inspect.html#inspect.Signature.bind
-https://docs.python.org/3/library/inspect.html#inspect.BoundArguments
 """
 
 import functools
