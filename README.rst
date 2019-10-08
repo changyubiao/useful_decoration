@@ -1,6 +1,5 @@
-useful-decoration
------------------
-
+Useful-decoration
+===================
 Description
 -----------
 
@@ -17,7 +16,7 @@ Install and update using `pip`_:
     pip install  useful-decoration
 
 Simples
-_______
+________
 
 .. code-block:: python
 
@@ -44,8 +43,8 @@ _______
 Contributes
 ___________
 
-Welcome, you can join this repo to  enhance this repo  together. you can pull request to me .
-please don't  hesitate to contact with  me if you have  any questions .
+Welcome, you can join this repo to  enhance this repo  together. you can pull request to me.
+please don't  hesitate to contact with  me if you have any questions .
 
 
 Links
