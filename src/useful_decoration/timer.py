@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import time
 from functools import partial, wraps
+from contextlib import contextmanager
 
 from loguru import logger
 
@@ -31,3 +32,17 @@ def fn_timer(fn=None, *, prefix="", interval=0.0):
         return result
 
     return function_timer
+
+
+@contextmanager
+def code_timer(name='default'):
+    """
+    计算代码段的运行时间
+    :param name: 用于区分不同代码段的名称
+    :return:
+    :usage:  with timer('delay'):
+                 time.sleep(3)
+    """
+    start = now()
+    yield
+    logger.info(f'{name} total running time {now() - start} seconds')
