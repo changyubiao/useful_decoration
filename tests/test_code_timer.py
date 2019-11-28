@@ -54,6 +54,8 @@ def test_service():
 
 if __name__ == '__main__':
 
+    test_get_token()
+
     pass
 
 
