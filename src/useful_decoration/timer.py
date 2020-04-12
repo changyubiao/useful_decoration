@@ -3,7 +3,7 @@ import time
 from functools import partial, wraps
 from contextlib import contextmanager
 
-from loguru import logger
+from simplelog import logger
 
 now = time.time
 
@@ -40,8 +40,11 @@ def code_timer(name='default'):
     计算代码段的运行时间
     :param name: 用于区分不同代码段的名称
     :return:
-    :usage:  with timer('delay'):
-                 time.sleep(3)
+    :usage:
+
+     ..code-block:
+         with timer('delay'):
+                     time.sleep(3)
     """
     start = now()
     yield

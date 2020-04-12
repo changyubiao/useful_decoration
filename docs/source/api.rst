@@ -6,21 +6,22 @@ API Reference
 这里可以查看API 文档
 
 
-
 useful\_decoration package
 ==========================
 
+Submodules
+----------
 
-decorations module
-------------------------
+useful\_decoration.decorations module
+-------------------------------------
 
 .. automodule:: useful_decoration.decorations
    :members:
    :undoc-members:
    :show-inheritance:
 
-func module
----------------------
+useful\_decoration.func module
+------------------------------
 
 .. automodule:: useful_decoration.func
    :members:
@@ -43,6 +44,14 @@ useful\_decoration.func\_para module
    :undoc-members:
    :show-inheritance:
 
+useful\_decoration.single module
+--------------------------------
+
+.. automodule:: useful_decoration.single
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 useful\_decoration.timer module
 -------------------------------
 
@@ -50,7 +59,4 @@ useful\_decoration.timer module
    :members:
    :undoc-members:
    :show-inheritance:
-
-
-
 

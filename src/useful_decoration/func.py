@@ -7,7 +7,7 @@
 """
 
 import functools
-from loguru import logger
+from simplelog import logger
 
 # 默认信用分
 DEFAULT_SCORE = -111.0
@@ -17,7 +17,7 @@ DEFAULT_PROB = -222.0
 
 
 def _check_arguments(d):
-    """\
+    """
     如果 d 全为空值,None ,则返回False . d.values有一个不为空,None,0 则 返回True
     """
     copy = d.copy()

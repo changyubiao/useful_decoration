@@ -2,7 +2,7 @@
 
 import functools
 import inspect
-from loguru import logger
+from simplelog import logger
 from collections import OrderedDict
 
 default_value = {

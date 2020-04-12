@@ -3,7 +3,7 @@
 @User     : Frank
 @File     : test_funcallable.py
 @DateTime : 2019-09-26 21:45 
-@Email    : frank.chang@lexisnexis.com
+@Email    : 15769162764@163.com
 
 pytest  -v -s  tests/test_funcallable.py
 

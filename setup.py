@@ -3,9 +3,9 @@
 @User     : Frank
 @File     : setup.py
 @DateTime : 2019-09-16 11:24 
-@Email    : frank.chang@lexisnexis.com
+@Email    : 15769162764@163.com
 """
-from setuptools import setup,find_packages
+from setuptools import setup, find_packages
 import io
 import re
 
@@ -14,7 +14,6 @@ with io.open('README.rst', 'r', encoding='utf8') as f:
 
 with io.open("src/useful_decoration/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r'__version__ = "(.*?)"', f.read()).group(1)
-
 
 setup(
     name="useful_decoration",
@@ -27,7 +26,7 @@ setup(
     long_description=long_description,
     url='https://github.com/changyubiao/useful_decoration',
     author='frank',
-    author_email='frank.chang@lexisnexis.com',
+    author_email='15769162764@163.com',
     description='powerful and useful decorations',
 
     project_urls={
@@ -37,7 +36,7 @@ setup(
 
     python_requires='>=3.6',
     install_requires=[
-        "loguru>=0.3.2",
+        "pysimple-log",
 
     ],
 
@@ -53,7 +52,7 @@ setup(
         'Topic :: Software Development :: Build Tools',
 
         # Pick your license as you wish (should match "license" above)
-         'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: MIT License',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
@@ -68,4 +67,3 @@ setup(
     ],
 
 )
-

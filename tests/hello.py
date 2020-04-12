@@ -3,7 +3,7 @@
 @User     : Frank
 @File     : setup.py
 @DateTime : 2019-09-16 11:24 
-@Email    : frank.chang@lexisnexis.com
+@Email    : 15769162764@163.com
 """
 from setuptools import find_packages
 

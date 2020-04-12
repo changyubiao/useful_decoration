@@ -18,7 +18,7 @@ import os
 from os.path import abspath, dirname, join
 import sys
 
-root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+root_path = abspath(join(dirname(__file__), '..'))
 
 print(f"root_path:{root_path}")
 # sys.path.insert(0, root_path)
